@@ -1,4 +1,4 @@
-write a python program for drawing national flags of india, pakistan, china , america , aurstrilia
+#write a python program for drawing national flags of india, pakistan, china , america , aurstrilia
 
 #India
 import turtle
