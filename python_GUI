@@ -1,0 +1,20 @@
+# importing tkinter module 
+from tkinter import *
+  
+# creating main window 
+mGui = Tk() 
+  
+# Title of your GUI window 
+mGui.title('My First GUI Program') 
+  
+# creating a function to print hello 
+def print_hello():     
+    print('Hello') 
+  
+# creating a button 
+button = Button(mGui, text = 'Click Here', command = print_hello) 
+  
+# arranging button in window 
+button.pack() 
+  
+mGui.mainloop()
